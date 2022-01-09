@@ -263,8 +263,7 @@ header {
 }
 
 .footer__img {
-    width: 3%;
-    height: 3%;
+    width: 48px;
     margin:auto;
     margin-bottom: 1em;
 }
