@@ -231,11 +231,11 @@ header {
 
 
 /* Projects */
+
 .section__title--project{
     margin-bottom: 50px;
 }
 .projects{
-    text-algin:center;
     font-size : var(--fs-h3);
 }
 .project__img {
@@ -247,6 +247,17 @@ header {
 .project__item__div {
     display:flex;
     width:inherit;
-    padding-bottom: 1.5em;
+    padding-bottom: 2em;
  
+}
+
+.project__p {
+  margin:auto;
+}
+
+/*Footer*/
+
+.social-list {
+  display: flex;
+  justify-content: space-evenly;
 }
