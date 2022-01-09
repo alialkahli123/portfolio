@@ -257,7 +257,14 @@ header {
 
 /*Footer*/
 
-.social-list {
+.div__footer, .social-list {
   display: flex;
   justify-content: space-evenly;
+}
+
+.footer__img {
+    width: 3%;
+    height: 3%;
+    margin:auto;
+    margin-bottom: 1em;
 }
