@@ -231,7 +231,6 @@ header {
 
 
 /* Projects */
-
 .section__title--project{
     margin-bottom: 50px;
 }
@@ -239,7 +238,9 @@ header {
     font-size : var(--fs-h3);
 }
 .project__img {
-    width: 60%;
+    min-width: 60%;
+    height: auto;
+    width: auto;
     margin-right: 50px;
 
 }
@@ -265,5 +266,13 @@ header {
 .footer__img {
     width: 48px;
     margin:auto;
-    margin-bottom: 1em;
+    margin:1em 0.75em 1em 1em;
+  
+    
+}
+.a__footer {
+  border-radius: 50%;
+}
+.a__footer:hover {
+  box-shadow: -7px -7px 7px 3px #25292b;
 }
